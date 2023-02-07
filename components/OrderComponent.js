@@ -9,7 +9,7 @@ Object.keys(VeeValidateRules).forEach(rule => {
 });
 
 // 讀取外部的資源
-VeeValidateI18n.loadLocaleFromURL('../json/zh_TW.json');
+VeeValidateI18n.loadLocaleFromURL('../../json/zh_TW.json');
 
 // Activate the locale
 VeeValidate.configure({
