@@ -30,7 +30,7 @@ const app = Vue.createApp({
 
         setTimeout(() => {
             this.isLoading = false;
-        }, 2300)
+        }, 3000)
     }
 })
 
