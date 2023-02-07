@@ -1,0 +1,15 @@
+body{
+    background-color: #F7F3EA;
+} 
+
+.animate__animated.animate__flipInX{
+    --animate-duration: 2s
+}
+
+.page-link{
+    background-color: #F7F3EA !important;
+    border: none;
+}
+.page-link:focus{
+    box-shadow: none
+}
