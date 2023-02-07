@@ -9,7 +9,7 @@ Object.keys(VeeValidateRules).forEach(rule => {
 });
 
 // 讀取外部的資源
-VeeValidateI18n.loadLocaleFromURL("https://github.com/sming0305/Vue-W5/tree/main/json");
+VeeValidateI18n.loadLocaleFromURL("https://unpkg.com/@vee-validate/i18n@4.1.0/dist/locale/zh_TW.json");
 
 // Activate the locale
 VeeValidate.configure({
